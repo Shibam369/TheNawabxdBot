@@ -15,7 +15,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '24363060'))
 API_HASH = environ.get('API_HASH', '2403084c19a00e8f07874b15ba01557b')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6746522771:AAEvaHiSUGfzZy6PQlo5MBMhrGnZCRLtLTI")
+BOT_TOKEN = environ.get('BOT_TOKEN', "6746522771:AAHxk4otv7TXz-XBZfRo7W1_azLYUopNj9E")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -29,9 +29,9 @@ SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://telegra.ph/file/734170f40b8
 CODE = (environ.get('CODE', 'https://telegra.ph/file/72f425007b22d28bd935e.jpg'))
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE', 'rocklinks.net'))
-STREAM_API = (environ.get('STREAM_API', '8a3fd6d5196fe08115b7b6bdcc05270b743f0a28'))
-STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/howtoopenrocklinks/2'))
+STREAM_SITE = (environ.get('STREAM_SITE', 'ziplimker.net'))
+STREAM_API = (environ.get('STREAM_API', '0f5fa53392cbc06ec2a3b910a8b9458fad3271bc'))
+STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/nawabbotupdate/15'))
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6029347235').split()]
