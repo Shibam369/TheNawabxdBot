@@ -29,7 +29,7 @@ SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://telegra.ph/file/734170f40b8
 CODE = (environ.get('CODE', 'https://telegra.ph/file/72f425007b22d28bd935e.jpg'))
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE', 'ziplimker.net'))
+STREAM_SITE = (environ.get('STREAM_SITE', 'ziplinker.net'))
 STREAM_API = (environ.get('STREAM_API', '0f5fa53392cbc06ec2a3b910a8b9458fad3271bc'))
 STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/nawabbotupdate/15'))
 
@@ -59,8 +59,8 @@ VERIFY = bool(environ.get('VERIFY', False)) # Verification On ( True ) / Off ( F
 HOWTOVERIFY = environ.get('HOWTOVERIFY','https://t.me/nawabbotupdate/15') # How to open tutorial link for verification
 
 # Others
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'rocklinks.net')
-SHORTLINK_API = environ.get('SHORTLINK_API', '8a3fd6d5196fe08115b7b6bdcc05270b743f0a28')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'ziplinker.net')
+SHORTLINK_API = environ.get('SHORTLINK_API', '0f5fa53392cbc06ec2a3b910a8b9458fad3271bc')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
@@ -68,7 +68,7 @@ MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/nawab_me2')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/nawabbotupdate')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/howtoopenrocklinks/2') # Tutorial video link for opening shortlink website 
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/nawabbotupdate/15') # Tutorial video link for opening shortlink website 
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : NB')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001849404517')) #Log channel id ( make sure bot is admin )
